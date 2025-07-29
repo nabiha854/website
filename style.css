@@ -60,38 +60,98 @@ cursor: pointer;
     max-width: 400px;
 }
 .clients{
-    text-align: center;
+    text-align: left;
     padding: 40px 20px;
 }
 .clients .logos img{
     height: 40px;
     margin: 10px;
 }
-.features{
-    background:#ffffff ;
-padding: 40px 20px;
-text-align: center;
-justify-content: space-between;
+.community-section{
+    padding: 60px 20px;
+    background-color: #ffffff;
+    font-family: sans-serif;
 }
-.feature-grid{
+.container{
+     max-width: 1200px;
+    margin: auto;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: flex-start;
 }
+
+.community-section h2{
+font-size: 32px;
+margin-right: 40px;
+font-weight: bold;
+}
+.feautures{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.feautures-box{
+    flex: 1;
+    min-width: 280px;
+    margin: 10px;
+    justify-content: space-between;
+}
+.feautures-box img{
+    height: 60px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.feautures-box h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+ text-transform: lowercase;
+    color: #2e2e2e;
+}
+.feautures-box p{
+     color: #666;
+     padding: 0 10px;
+}
+.testimonial image img{
+    max-width: 100%;
+height: auto;
+}
+.testimonial{
+    display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.testimonial-content{
+    max-width: 550px;
+}
+.testimonial-content h3{
+    font-size: 24px;
+    color: #333;
+}
+.testimonial-content p{
+    color: #444;
+    margin-bottom: 20px;
+}
+.btn-learn{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .hero-text{
     justify-content: center;
     text-align: center;
     padding: 40px 20px;
 }
- .learn more{background: #2e7d32;
-    color: white;
-    border-radius: 5px;}
-    .feature-grid{
-        width: 30px;
-        background: #f1f8e9;
-        padding: 20px;
-        border-radius: 10px;
-    }
+ 
     .stats{
         padding: 40px 20px;
         background: #e8f5e9;
@@ -135,6 +195,8 @@ justify-content: space-between;
     .feature-card{
         width: 80%;
         margin-bottom: 20px;
+        justify-content: left;
+        align-items: initial;
     }
     .stats-grid{
         flex-direction: column;
@@ -155,6 +217,7 @@ justify-content: space-between;
     }
     .hero-text h1{
         font-size: 24px;
+        justify-content: center;
     }
     .stats-grid div{
         font-size: 16px;
